@@ -1,2 +1,2 @@
-# ngx-custom-form-validators
+# Angular2+ Custom Form Validators
 FormControl Custom Validators
