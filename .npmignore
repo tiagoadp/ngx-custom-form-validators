@@ -22,6 +22,8 @@ typings/*
 .idea/*
 *.iml
 
+.vscode
+
 ############
 ## Windows
 ############
