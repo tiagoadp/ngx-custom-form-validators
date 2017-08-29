@@ -39,6 +39,7 @@ export class AppComponent implements OnInit {
     constructor(public formBuilder: FormBuilder){}
 
     ngOnInit() {
+        console.log('rodei');
         this.teste = this.formBuilder.group({
             cpf : [null, [NgxCustomValidator.cpf]],
             cnpj : [null, [NgxCustomValidator.cnpj]]

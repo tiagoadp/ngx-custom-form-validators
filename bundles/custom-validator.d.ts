@@ -1,4 +1,4 @@
-import { FormControl } from "@angular/forms/forms";
+import { FormControl } from "@angular/forms";
 export declare class NgxCustomValidator {
     static cpf(control: FormControl) : any
     static cnpj(control: FormControl) : any

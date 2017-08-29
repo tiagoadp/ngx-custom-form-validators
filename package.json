@@ -1,6 +1,6 @@
 {
   "name": "ngx-custom-form-validators",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "A class that adds extra form validators",
   "scripts": {
     "start": "tsc && concurrently \"npm run ngc\" \"npm run lite\" ",
@@ -8,7 +8,7 @@
     "tsc": "ngc -w",
     "ngc": "ngc",
     "build": "ngc",
-    "bundles": "ngc -m system --rootDir ./app --outFile ./bundles/ngx-custom-form-validators.js",
+    "bundles": "ngc -m system --rootDir ./app --outFile ./bundles/custom-validator.js",
     "build:aot": "rimraf bundles && ngc -p tsconfig-aot.json"
   },
   "repository": {
