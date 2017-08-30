@@ -18,7 +18,8 @@
         "strictMetadataEmit": true
     },
     "files": [
-        "app/custom-validator.ts"
+        "app/app.module.ts",
+        "app/validator/custom-validator.ts"
     ],
     "exclude": [
         "node_modules",

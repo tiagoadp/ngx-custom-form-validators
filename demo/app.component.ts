@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { FormGroup, FormBuilder } from '@angular/forms'
-import { NgxCustomValidator } from '../app/custom-validator';
+import { NgxCustomValidator } from '../app/validator/custom-validator';
 
 @Component({
     selector: 'app',

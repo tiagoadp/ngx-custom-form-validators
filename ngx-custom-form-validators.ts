@@ -1,1 +1,2 @@
-export {NgxCustomValidator} from './app/custom-validator';
+export {NgxCustomValidatorModule} from './app/app.module';
+export {NgxCustomValidator} from './app/validator/custom-validator';
